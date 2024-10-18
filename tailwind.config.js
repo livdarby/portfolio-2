@@ -7,9 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontSize: { largest: "16rem", md: "10rem" },
-      fontFamily: { title: "Bebas Neue", body: "Montserrat" },
+      fontSize: { largest: "13rem", md: "10rem" },
+      fontFamily: {
+        title: ['"Bebas Neue"', "sans-serif"], // Ensure other fonts are arrays too
+        body: ['"Montserrat"', "sans-serif"],
+        script: ['"BrittanySignature"', "cursive"], // Reference the font-family from @font-face },
+      },
     },
+    plugins: [],
   },
-  plugins: [],
 };
