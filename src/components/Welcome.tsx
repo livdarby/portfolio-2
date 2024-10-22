@@ -73,7 +73,7 @@ function Welcome() {
                   at CJ, an affiliate marketing network. I worked closely with
                   client tech teams to integrate their tracking technology, and
                   was given a new insight into the world of web development. The
-                  challenge of learning new concepts, logical problem-sovling
+                  challenge of learning new concepts, logical problem-solving
                   and team dynamic piqued my interest and were elements I felt I
                   was missing in my Business Development role.
                 </p>
