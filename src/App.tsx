@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import Welcome from "./components/Welcome";
 import Skills from "./components/Skills";
 import "./styles/index.css";
+import Projects from "./components/Projects";
+import ProjectOne from "./components/ProjectOne";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/welcome" element={<Welcome />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/01" element={<ProjectOne />} />
           </Routes>
         </Router>
       </div>
