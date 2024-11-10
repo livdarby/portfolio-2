@@ -1,8 +1,8 @@
-import quiz from "../../assets/quiz.png";
-import fpl from "../../assets/fpl.png";
-import cpp from "../../assets/cpp.png";
-import shop from "../../assets/shop.png";
-import { Link } from "react-router-dom";
+import quiz2 from "../../assets/quiz2.png";
+import fpl3 from "../../assets/fpl3.png";
+import cpp2 from "../../assets/cpp2.png";
+import gourmetvoyage from "../../assets/gourmetvoyage.png"
+import ezpz from "../../assets/ezpz.png"
 
 function Projects() {
   return (
@@ -15,43 +15,102 @@ function Projects() {
           <h1 className="font-title text-[#357ab7] text-7xl sm:text-8xl md:text-9xl lg:text-largest tracking-wide text-center">
             Projects
           </h1>
-          <p className="font-body text-sm text-center">
-            Click on a project below to read more.
+          <p className="font-body text-sm text-center px-8 my-5">
+            A collection of sites I've created and projects I'm working on.
           </p>
         </div>
-        <div className="font-body uppercase flex flex-wrap justify-center gap-4 sm:gap-10 text-xs font-semibold tracking-wider sm:px-4 lg:px-0 lg:justify-evenly">
-            <Link to="01" className="flex flex-col items-center my-4 gap-2 cursor-pointer lg:w-[20%]">
-              <img
-                src={fpl}
-                alt="Project screenshot"
-                className="w-48 rounded shadow sm:w-56 lg:w-[100%]"
-              />
-              <p>Project 01</p>
-            </Link>
-
-          <div className="flex flex-col items-center my-4 gap-2 cursor-pointer lg:w-[20%]">
+        <div className="flex flex-col gap-5">
+          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
+            <div className="w-[60%]">
+              <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
+                Premier Picks <span className="text-xs">x</span> FPL BlackBox
+              </h1>
+              <p className="font-body text-sm">
+                Enter Premier League predictions and monitor your performance
+                against competitors.
+              </p>
+            </div>
             <img
-              src={cpp}
-              alt="Project screenshot"
-              className="w-48 rounded shadow sm:w-56 lg:w-[100%]"
+              src={fpl3}
+              alt="site screenshot"
+              className="w-44 h-32 my-auto rounded"
             />
-            <p>Project 02</p>
           </div>
-          <div className="flex flex-col items-center my-4 gap-2 cursor-pointer lg:w-[20%]">
+          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
+            <div className="w-[60%]">
+              <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
+                Ezpz events
+              </h1>
+              <p className="font-body text-sm">
+                Take the headache out of event-planning with everything from
+                budget management to RSVPs in one place.
+              </p>
+            </div>
             <img
-              src={quiz}
-              alt="Project screenshot"
-              className="w-48 rounded shadow sm:w-56 lg:w-[100%]"
+              src={ezpz}
+              alt="site screenshot"
+              className="w-28 my-auto mx-auto rounded-full"
             />
-            <p>Project 03</p>
           </div>
-          <div className="flex flex-col items-center my-4 gap-2 cursor-pointer lg:w-[20%]">
+          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
+            <div className="w-[60%]">
+              <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
+                cabbage patch protector
+              </h1>
+              <p className="font-body text-sm">
+                Minesweeper with a twist. Just for fun, this is a JavaScript grid-based game.
+              </p>
+            </div>
             <img
-              src={shop}
-              alt="Project screenshot"
-              className="w-48 rounded shadow sm:w-56 lg:w-[100%]"
+              src={cpp2}
+              alt="site screenshot"
+              className="w-44 h-24 my-auto mx-auto rounded"
             />
-            <p>Project 04</p>
+          </div>
+          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
+            <div className="w-[60%] my-auto">
+              <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
+                Gourmet Voyage
+              </h1>
+              <p className="font-body text-sm">
+                An online foodie marketplace, with an Express back-end and React front-end. A General Assembly group project. 
+              </p>
+            </div>
+            <img
+              src={gourmetvoyage}
+              alt="site screenshot"
+              className="w-44 h-44 my-auto mx-auto rounded"
+            />
+          </div>
+          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
+            <div className="w-[60%] my-auto">
+              <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
+                Open Trivia Quiz
+              </h1>
+              <p className="font-body text-sm">
+                Test your general knowledge with this React app, fetching data from a public API. A 48-hour Hackathon pair project.
+              </p>
+            </div>
+            <img
+              src={quiz2}
+              alt="site screenshot"
+              className="w-44 h-44 my-auto mx-auto rounded"
+            />
+          </div>
+          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
+            <div className="w-[60%]">
+              <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
+                cabbage patch protector
+              </h1>
+              <p className="font-body text-sm">
+                Minesweeper with a twist. Just for fun, this is a JavaScript grid-based game.
+              </p>
+            </div>
+            <img
+              src={cpp2}
+              alt="site screenshot"
+              className="w-44 h-24 my-auto mx-auto rounded"
+            />
           </div>
         </div>
       </section>

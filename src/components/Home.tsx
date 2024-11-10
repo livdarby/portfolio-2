@@ -43,7 +43,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="w-full mt-32 sm:mt-48 lg:mt-52 sm:w-[600px] md:w-[720px] lg:w-[900px] mx-auto">
+        {/* <div className="w-full mt-32 sm:mt-48 lg:mt-52 sm:w-[600px] md:w-[720px] lg:w-[900px] mx-auto">
           <Carousel
             swipeable={true}
             draggable={false}
@@ -100,9 +100,9 @@ function Home() {
                 alt="Project 4 screenshot - Premier Pics"
                 className="w-64 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
               />
-            </div>
-          </Carousel>
-        </div>
+            </div> */}
+          {/* </Carousel> */}
+        {/* </div> */}
       </section>
     </>
   );
