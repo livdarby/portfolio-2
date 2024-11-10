@@ -97,21 +97,6 @@ function Projects() {
               className="w-44 h-44 my-auto mx-auto rounded"
             />
           </div>
-          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
-            <div className="w-[60%]">
-              <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
-                cabbage patch protector
-              </h1>
-              <p className="font-body text-sm">
-                Minesweeper with a twist. Just for fun, this is a JavaScript grid-based game.
-              </p>
-            </div>
-            <img
-              src={cpp2}
-              alt="site screenshot"
-              className="w-44 h-24 my-auto mx-auto rounded"
-            />
-          </div>
         </div>
       </section>
     </>

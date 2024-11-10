@@ -101,7 +101,7 @@ function Welcome() {
             about relationship management, cross-functional collaboration and
             commercial negotations.
           </p>
-          <p className="font-body px-8">
+          <p className="font-body px-8 mb-10">
             Outside of work, I love coffee, hiking, reading fantasy and
             exploring the wonders of Western Australia, having recently
             emigrated to Perth from the UK.
