@@ -39,7 +39,7 @@ function Welcome() {
           <p>
             Whilst working closely with internal and client dev teams, I
             uncovered a keen interest in web development - the team dynamic,
-            challenging new concepts and logical probleming solving that I felt
+            challenging new concepts and logical problem solving were all elements I felt
             my role in business development was missing.
           </p>
           <p>
