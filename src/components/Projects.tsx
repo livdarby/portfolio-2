@@ -62,7 +62,7 @@ function Projects() {
             id="fpl"
             className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4"
           >
-            <div id="fpl" className="w-[60%]">
+            <div id="fpl" className="w-[70%]">
               <h1
                 id="fpl"
                 className="font-title text-lg tracking-wider text-[#357ab7]"
@@ -89,12 +89,12 @@ function Projects() {
             <img
               src={fpl3}
               alt="site screenshot"
-              className="w-28 my-auto rounded-full"
+              className="w-28 my-auto rounded-full mx-auto"
               id="fpl"
             />
           </div>
           <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
-            <div className="w-[60%]">
+            <div className="w-[70%]">
               <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
                 Ezpz events
               </h1>
@@ -126,7 +126,7 @@ function Projects() {
             onClick={handleClick}
             className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4"
           >
-            <div id="cpp" className="w-[60%]">
+            <div id="cpp" className="w-[70%]">
               <h1
                 id="cpp"
                 className="font-title text-lg tracking-wider text-[#357ab7]"
@@ -146,7 +146,7 @@ function Projects() {
             />
           </div>
           <div id="gv" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
-            <div id="gv" className="w-[60%] my-auto">
+            <div id="gv" className="w-[70%] my-auto">
               <h1 id="gv" className="font-title text-lg tracking-wider text-[#357ab7]">
                 Gourmet Voyage
               </h1>
@@ -162,7 +162,7 @@ function Projects() {
             />
           </div>
           <div id="quiz" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
-            <div id="quiz" className="w-[60%] my-auto">
+            <div id="quiz" className="w-[70%] my-auto">
               <h1 id="quiz" className="font-title text-lg tracking-wider text-[#357ab7]">
                 Open Trivia Quiz
               </h1>
