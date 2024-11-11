@@ -1,8 +1,8 @@
 import quiz2 from "../../assets/quiz2.png";
 import fpl3 from "../../assets/fpl3.png";
 import cpp2 from "../../assets/cpp2.png";
-import gourmetvoyage from "../../assets/gourmetvoyage.png"
-import ezpz from "../../assets/ezpz.png"
+import gourmetvoyage from "../../assets/gourmetvoyage.png";
+import ezpz from "../../assets/ezpz.png";
 
 function Projects() {
   return (
@@ -20,6 +20,11 @@ function Projects() {
           </p>
         </div>
         <div className="flex flex-col gap-5">
+          <div className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-end items-center">
+            <h1 className="font-title text-white text-2xl tracking-wider px-8 pt-[2px]">
+              currently working on
+            </h1>
+          </div>
           <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
             <div className="w-[60%]">
               <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
@@ -52,13 +57,19 @@ function Projects() {
               className="w-28 my-auto mx-auto rounded-full"
             />
           </div>
+          <div className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-start items-center">
+            <h1 className="font-title text-white text-2xl tracking-wider px-8 pt-[2px]">
+              previous projects
+            </h1>
+          </div>
           <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
             <div className="w-[60%]">
               <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
                 cabbage patch protector
               </h1>
               <p className="font-body text-sm">
-                Minesweeper with a twist. Just for fun, this is a JavaScript grid-based game.
+                Minesweeper with a twist. Just for fun, this is a JavaScript
+                grid-based game.
               </p>
             </div>
             <img
@@ -73,7 +84,8 @@ function Projects() {
                 Gourmet Voyage
               </h1>
               <p className="font-body text-sm">
-                An online foodie marketplace, with an Express back-end and React front-end. A General Assembly group project. 
+                An online foodie marketplace, with an Express back-end and React
+                front-end. A General Assembly group project.
               </p>
             </div>
             <img
@@ -88,7 +100,8 @@ function Projects() {
                 Open Trivia Quiz
               </h1>
               <p className="font-body text-sm">
-                Test your general knowledge with this React app, fetching data from a public API. A 48-hour Hackathon pair project.
+                Test your general knowledge with this React app, fetching data
+                from a public API. A 48-hour Hackathon pair project.
               </p>
             </div>
             <img
