@@ -26,7 +26,7 @@ function Skills() {
 
   return (
     <>
-      <section className="bg-[#f9d7df] min-h-screen p-8">
+      <section className="bg-[#f9d7df] h-screen p-8">
         <div>
           <h2 className="font-body uppercase tracking-wider text-[#333] font-semibold mb-4 text-center text-xs">
             Liv Darby | Junior Developer
@@ -35,53 +35,51 @@ function Skills() {
             My Skills
           </h1>
         </div>
-        <div className="my-6">
-          <h2 className="font-title text-white tracking-wider text-3xl pl-10">
+        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
+          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl">
             Front-end
           </h2>
-          <div className="bg-[#357ab7] flex flex-wrap font-body font-medium text-white rounded-full px-6 py-1 justify-center">
+          <div className="flex flex-wrap font-body py-1">
             {frontEnd &&
               frontEnd.map((skill: any) => {
-                return <p className="px-3">{skill}</p>;
+                return <p className="pr-5 text-sm">{skill}</p>;
               })}
           </div>
         </div>
-
-        <div className="my-6">
-          <h2 className="font-title text-white tracking-wider text-3xl pl-14">
+        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
+          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl">
             Back-end
           </h2>
-          <div className="bg-[#357ab7] flex flex-wrap font-body font-medium text-white rounded-full px-6 py-1 justify-center">
+          <div className="flex flex-wrap font-body py-1">
             {backEnd &&
               backEnd.map((skill: any) => {
-                return <p className="px-3">{skill}</p>;
+                return <p className="pr-5 text-sm">{skill}</p>;
               })}
           </div>
         </div>
-
-        <div className="my-6">
-          <h2 className="font-title text-white tracking-wider text-3xl pl-20">
+        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
+          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl">
             Databases
           </h2>
-          <div className="bg-[#357ab7] flex flex-wrap font-body font-medium text-white rounded-full px-6 py-1 justify-center">
+          <div className="flex flex-wrap font-body py-1">
             {databases &&
               databases.map((skill: any) => {
-                return <p className="px-3">{skill}</p>;
+                return <p className="pr-5 text-sm">{skill}</p>;
+              })}
+          </div>
+        </div>
+        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
+          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl">
+            Deployment & Tools
+          </h2>
+          <div className="flex flex-wrap font-body py-1">
+            {tools &&
+              tools.map((skill: any) => {
+                return <p className="pr-5 text-sm">{skill}</p>;
               })}
           </div>
         </div>
 
-        <div className="my-6">
-          <h2 className="font-title text-white tracking-wider text-3xl pl-28">
-            Deployment & Tools
-          </h2>
-          <div className="bg-[#357ab7] flex flex-wrap font-body font-medium text-white rounded-full px-6 py-1 justify-center">
-            {tools &&
-              tools.map((skill: any) => {
-                return <p className="px-3">{skill}</p>;
-              })}
-          </div>
-        </div>
       </section>
     </>
   );
