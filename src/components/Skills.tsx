@@ -11,7 +11,7 @@ function Skills() {
 
   const backEnd = ["Python", "JavaScript", "Node.js", "Express", "Flask"];
 
-  const databases = ["SQL", "PostgreSQL", "MongoDB", "SQLAlchemy", "Mongoose"];
+  const databases = ["SQL", "PostgreSQL", "MongoDB", "Mongoose","SQLAlchemy"];
 
   const tools = [
     "Heroku",
@@ -36,46 +36,46 @@ function Skills() {
           </h1>
         </div>
         <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
-          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl">
+          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl py-1">
             Front-end
           </h2>
-          <div className="flex flex-wrap font-body py-1">
+          <div className="flex flex-wrap font-body">
             {frontEnd &&
               frontEnd.map((skill: any) => {
-                return <p className="pr-5 text-sm">{skill}</p>;
+                return <p className="pr-5 pb-2 text-sm">{skill}</p>;
               })}
           </div>
         </div>
         <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
-          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl">
+          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl py-1">
             Back-end
           </h2>
-          <div className="flex flex-wrap font-body py-1">
+          <div className="flex flex-wrap font-body">
             {backEnd &&
               backEnd.map((skill: any) => {
-                return <p className="pr-5 text-sm">{skill}</p>;
+                return <p className="pr-5 pb-2 text-sm">{skill}</p>;
               })}
           </div>
         </div>
         <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
-          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl">
+          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl py-1">
             Databases
           </h2>
-          <div className="flex flex-wrap font-body py-1">
+          <div className="flex flex-wrap font-body">
             {databases &&
               databases.map((skill: any) => {
-                return <p className="pr-5 text-sm">{skill}</p>;
+                return <p className="pr-5 pb-2 text-sm">{skill}</p>;
               })}
           </div>
         </div>
         <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
-          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl">
+          <h2 className="font-title text-[#357ab7] tracking-wider text-2xl py-1">
             Deployment & Tools
           </h2>
-          <div className="flex flex-wrap font-body py-1">
+          <div className="flex flex-wrap font-body">
             {tools &&
               tools.map((skill: any) => {
-                return <p className="pr-5 text-sm">{skill}</p>;
+                return <p className="pr-5 pb-2 text-sm">{skill}</p>;
               })}
           </div>
         </div>
