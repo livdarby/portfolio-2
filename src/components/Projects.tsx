@@ -5,6 +5,38 @@ import gourmetvoyage from "../../assets/gourmetvoyage.png";
 import ezpz from "../../assets/ezpz.png";
 
 function Projects() {
+  function handleClick(e: any) {
+    e.preventDefault();
+    if (e.target.id === "fpl") {
+      window.open(
+        "https://premier-picks.netlify.app/",
+        "_blank",
+        "noopener,noreferrer"
+      );
+    }
+    else if (e.target.id === "cpp") {
+      window.open(
+        "https://livdarby.github.io/SEB-Project-1/",
+        "_blank",
+        "noopener,noreferrer"
+      );
+    }
+    else if (e.target.id === "gv") {
+      window.open(
+        "https://gourmet-e-shop-front.netlify.app/",
+        "_blank",
+        "noopener,noreferrer"
+      );
+    }
+    else if (e.target.id === "quiz") {
+      window.open(
+        "https://catherine-liv-project-2.netlify.app/quiz",
+        "_blank",
+        "noopener,noreferrer"
+      );
+    }
+  }
+
   return (
     <>
       <section className="bg-[#f9d7df] h-max min-h-screen py-8">
@@ -25,20 +57,40 @@ function Projects() {
               currently working on
             </h1>
           </div>
-          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
-            <div className="w-[60%]">
-              <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
-                Premier Picks <span className="text-xs">x</span> FPL BlackBox
+          <div
+            onClick={handleClick}
+            id="fpl"
+            className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4"
+          >
+            <div id="fpl" className="w-[60%]">
+              <h1
+                id="fpl"
+                className="font-title text-lg tracking-wider text-[#357ab7]"
+              >
+                Premier Picks{" "}
+                <span id="fpl" className="text-xs">
+                  x
+                </span>{" "}
+                FPL BlackBox
               </h1>
-              <p className="font-body text-sm">
+              <p id="fpl" className="font-body text-sm">
                 Enter Premier League predictions and monitor your performance
-                against competitors.
+                against competitors. Freelancing for{"  "}
+                <a
+                  id="fpl"
+                  href="https://www.fplblackbox.com/"
+                  target="_blank"
+                  className="underline"
+                >
+                  FPL BlackBox.
+                </a>
               </p>
             </div>
             <img
               src={fpl3}
               alt="site screenshot"
               className="w-28 my-auto rounded-full"
+              id="fpl"
             />
           </div>
           <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
@@ -48,7 +100,8 @@ function Projects() {
               </h1>
               <p className="font-body text-sm">
                 Take the headache out of event-planning with everything from
-                budget management to RSVPs in one place.
+                budget management to RSVPs in one place. In the wireframing
+                stage.
               </p>
             </div>
             <img
@@ -57,54 +110,68 @@ function Projects() {
               className="w-28 my-auto mx-auto rounded-full"
             />
           </div>
-          <div className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-end items-center">
-            <h1 className="font-title text-white text-2xl tracking-wider px-8 pt-[2px]">
+          <div
+            id="cpp"
+            className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-end items-center"
+          >
+            <h1
+              id="cpp"
+              className="font-title text-white text-2xl tracking-wider px-8 pt-[2px]"
+            >
               previous projects
             </h1>
           </div>
-          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
-            <div className="w-[60%]">
-              <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
+          <div
+            id="cpp"
+            onClick={handleClick}
+            className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4"
+          >
+            <div id="cpp" className="w-[60%]">
+              <h1
+                id="cpp"
+                className="font-title text-lg tracking-wider text-[#357ab7]"
+              >
                 cabbage patch protector
               </h1>
-              <p className="font-body text-sm">
-                Minesweeper with a twist. Just for fun, this is a JavaScript
+              <p id="cpp" className="font-body text-sm">
+                Minesweeper with a twist. My first solo General Assembly project - a desktop JavaScript
                 grid-based game.
               </p>
             </div>
             <img
+              id="cpp"
               src={cpp2}
               alt="site screenshot"
               className="w-28 my-auto mx-auto rounded-full"
             />
           </div>
-          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
-            <div className="w-[60%] my-auto">
-              <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
+          <div id="gv" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
+            <div id="gv" className="w-[60%] my-auto">
+              <h1 id="gv" className="font-title text-lg tracking-wider text-[#357ab7]">
                 Gourmet Voyage
               </h1>
-              <p className="font-body text-sm">
+              <p id="gv" className="font-body text-sm">
                 An online foodie marketplace, with an Express back-end and React
                 front-end. A General Assembly group project.
               </p>
             </div>
-            <img
+            <img id="gv"
               src={gourmetvoyage}
               alt="site screenshot"
               className="w-28 my-auto mx-auto rounded-full"
             />
           </div>
-          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
-            <div className="w-[60%] my-auto">
-              <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
+          <div id="quiz" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
+            <div id="quiz" className="w-[60%] my-auto">
+              <h1 id="quiz" className="font-title text-lg tracking-wider text-[#357ab7]">
                 Open Trivia Quiz
               </h1>
-              <p className="font-body text-sm">
+              <p id="quiz" className="font-body text-sm">
                 Test your general knowledge with this React app, fetching data
                 from a public API. A 48-hour Hackathon pair project.
               </p>
             </div>
-            <img
+            <img id="quiz"
               src={quiz2}
               alt="site screenshot"
               className="w-28 my-auto mx-auto rounded-full"
