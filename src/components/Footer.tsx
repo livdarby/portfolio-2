@@ -5,7 +5,7 @@ function Footer() {
     <>
       <nav className="pt-10 bg-[#f9d7df] font-body uppercase font-semibold text-sm sm:text-base">
         <div className="flex justify-evenly bg-[#357ab7] text-white">
-          <Link className="cursor-pointer" to="welcome">
+          <Link className="cursor-pointer" to="/">
             Welcome
           </Link>
           <Link className="cursor-pointer" to="projects">

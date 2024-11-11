@@ -14,7 +14,7 @@ function App() {
         <Router>
           <Footer />
           <Routes>
-            <Route path="/welcome" element={<Welcome />} />
+            <Route path="/" element={<Welcome />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/01" element={<ProjectOne />} />

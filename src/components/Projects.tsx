@@ -89,7 +89,7 @@ function Projects() {
             <img
               src={fpl3}
               alt="site screenshot"
-              className="w-28 my-auto rounded-full mx-auto"
+              className="w-28 my-auto rounded mx-auto"
               id="fpl"
             />
           </div>
@@ -107,7 +107,7 @@ function Projects() {
             <img
               src={ezpz}
               alt="site screenshot"
-              className="w-28 my-auto mx-auto rounded-full"
+              className="w-28 my-auto mx-auto rounded"
             />
           </div>
           <div
@@ -142,7 +142,7 @@ function Projects() {
               id="cpp"
               src={cpp2}
               alt="site screenshot"
-              className="w-28 my-auto mx-auto rounded-full"
+              className="w-28 my-auto mx-auto rounded"
             />
           </div>
           <div id="gv" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
@@ -158,7 +158,7 @@ function Projects() {
             <img id="gv"
               src={gourmetvoyage}
               alt="site screenshot"
-              className="w-28 my-auto mx-auto rounded-full"
+              className="w-28 my-auto mx-auto rounded"
             />
           </div>
           <div id="quiz" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
@@ -174,7 +174,7 @@ function Projects() {
             <img id="quiz"
               src={quiz2}
               alt="site screenshot"
-              className="w-28 my-auto mx-auto rounded-full"
+              className="w-28 my-auto mx-auto rounded"
             />
           </div>
         </div>
