@@ -13,10 +13,10 @@ function Welcome() {
               Welcome
             </h1>
             <h3 className="text-center font-script text-white tracking-widest text-4xl md:text-5xl lg:text-7xl -rotate-[9deg] -mt-8 sm:-mt-10 lg:-mt-20">
-              about me
+              to my portfolio
             </h3>
           </div>
-          <h1 className="font-title text-[#357ab7] text-center my-10 text-6xl">
+          <h1 className="font-title text-[#357ab7] text-center my-12 text-6xl">
             I'm Liv.
           </h1>
           <img

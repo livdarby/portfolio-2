@@ -20,7 +20,7 @@ function Projects() {
           </p>
         </div>
         <div className="flex flex-col gap-5">
-          <div className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-end items-center">
+          <div className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-start items-center">
             <h1 className="font-title text-white text-2xl tracking-wider px-8 pt-[2px]">
               currently working on
             </h1>
@@ -57,7 +57,7 @@ function Projects() {
               className="w-28 my-auto mx-auto rounded-full"
             />
           </div>
-          <div className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-start items-center">
+          <div className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-end items-center">
             <h1 className="font-title text-white text-2xl tracking-wider px-8 pt-[2px]">
               previous projects
             </h1>

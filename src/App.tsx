@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Welcome from "./components/Welcome";
 import Skills from "./components/Skills";
@@ -15,7 +14,6 @@ function App() {
         <Router>
           <Footer />
           <Routes>
-            <Route path="/" element={<Home />} />
             <Route path="/welcome" element={<Welcome />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
