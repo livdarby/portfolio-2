@@ -51,8 +51,8 @@ function Projects() {
             A collection of sites I've created and projects I'm working on.
           </p>
         </div>
-        <div className="flex flex-col gap-5">
-          <div className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-start items-center">
+        <div className="flex flex-col gap-5 md:flex-row md:flex-wrap">
+          <div className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-start items-center md:w-[80%]">
             <h1 className="font-title text-white text-2xl tracking-wider px-8 pt-[2px]">
               currently working on
             </h1>
@@ -60,7 +60,7 @@ function Projects() {
           <div
             onClick={handleClick}
             id="fpl"
-            className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4"
+            className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4 md:w-[45%]"
           >
             <div id="fpl" className="w-[70%]">
               <h1
@@ -93,7 +93,7 @@ function Projects() {
               id="fpl"
             />
           </div>
-          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
+          <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4 md:w-[45%]">
             <div className="w-[70%]">
               <h1 className="font-title text-lg tracking-wider text-[#357ab7]">
                 Ezpz events
@@ -112,7 +112,7 @@ function Projects() {
           </div>
           <div
             id="cpp"
-            className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-end items-center"
+            className="bg-[#357ab7] w-[90%] mx-auto rounded-full flex justify-end items-center md:w-[80%]"
           >
             <h1
               id="cpp"
@@ -124,7 +124,7 @@ function Projects() {
           <div
             id="cpp"
             onClick={handleClick}
-            className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4"
+            className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4 md:w-[45%]"
           >
             <div id="cpp" className="w-[70%]">
               <h1
@@ -145,7 +145,7 @@ function Projects() {
               className="w-28 my-auto mx-auto rounded"
             />
           </div>
-          <div id="gv" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
+          <div id="gv" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4 md:w-[45%]">
             <div id="gv" className="w-[70%] my-auto">
               <h1 id="gv" className="font-title text-lg tracking-wider text-[#357ab7]">
                 Gourmet Voyage
@@ -161,7 +161,7 @@ function Projects() {
               className="w-28 my-auto mx-auto rounded"
             />
           </div>
-          <div id="quiz" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4">
+          <div id="quiz" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto rounded-md py-4 md:w-[45%]">
             <div id="quiz" className="w-[70%] my-auto">
               <h1 id="quiz" className="font-title text-lg tracking-wider text-[#357ab7]">
                 Open Trivia Quiz

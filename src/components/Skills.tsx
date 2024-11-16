@@ -26,16 +26,16 @@ function Skills() {
 
   return (
     <>
-      <section className="bg-[#f9d7df] h-screen p-8">
+      <section className="bg-[#f9d7df] h-screen p-8 md:flex md:flex-wrap md:justify-center md:gap-6">
         <div>
-          <h2 className="font-body uppercase tracking-wider text-[#333] font-semibold mb-4 text-center text-xs">
+          <h2 className="font-body uppercase tracking-wider text-[#333] font-semibold mb-4 text-center text-xs md:w-screen">
             Liv Darby | Junior Developer
           </h2>
-          <h1 className="font-title text-[#357ab7] tracking-wider text-7xl text-center my-5">
+          <h1 className="font-title text-[#357ab7] tracking-wider text-7xl text-center my-5 md:w-screen">
             My Skills
           </h1>
         </div>
-        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
+        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1 md:w-[40%]">
           <h2 className="font-title text-[#357ab7] tracking-wider text-2xl py-1">
             Front-end
           </h2>
@@ -46,7 +46,7 @@ function Skills() {
               })}
           </div>
         </div>
-        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
+        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1 md:w-[40%]">
           <h2 className="font-title text-[#357ab7] tracking-wider text-2xl py-1">
             Back-end
           </h2>
@@ -57,7 +57,7 @@ function Skills() {
               })}
           </div>
         </div>
-        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
+        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1 md:w-[40%]">
           <h2 className="font-title text-[#357ab7] tracking-wider text-2xl py-1">
             Databases
           </h2>
@@ -68,7 +68,7 @@ function Skills() {
               })}
           </div>
         </div>
-        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1">
+        <div className="my-6 bg-[#fcecf1] rounded px-5 py-1 md:w-[40%]">
           <h2 className="font-title text-[#357ab7] tracking-wider text-2xl py-1">
             Deployment & Tools
           </h2>

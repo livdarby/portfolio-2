@@ -20,7 +20,7 @@ function Welcome() {
             I'm Liv.
           </h1>
           <img
-            className="rounded-full h-96 mx-auto"
+            className="rounded-full h-96 mx-auto md:hidden"
             src={dolomites}
             alt="Hiking in the Dolomites"
           />
@@ -28,21 +28,41 @@ function Welcome() {
             I'm a Junior Developer based in Perth, Western Australia.
           </p>
         </div>
-        <div className="font-body flex flex-col gap-5 px-8 my-10">
-          <p>
+        <div className="font-body flex flex-col gap-5 px-8 my-10 md:flex-row md:flex-wrap md:justify-center">
+          <img
+            src={dolomites}
+            alt="Hiking photo"
+            className="rounded-t-full w-[230px] h-[321px] hidden md:flex my-auto"
+          />
+          <p className="md:w-[400px]">
             Over the past 8 years, I've worked in account management and
             business development in the digital marketing industry. I have had
             the privilege of working alongside incredible brands, implementing
             their influencer marketing campaigns and affiliate tracking
             technology.
+            <br />
+            <p className="hidden md:flex md:mt-4">
+              Whilst working closely with internal and client dev teams, I
+              uncovered a keen interest in web development - the team dynamic,
+              challenging new concepts and logical problem solving that the work
+              offers.
+            </p>
+            <p className="hidden md:flex md:mt-4">
+              In January 2024, I decided to seriously pursue this passion,
+              enrolling in a full-time Software Engineering Bootcamp with
+              General Assembly. Throughout the three month course I built a
+              solid foundation in front and back-end web development, which I
+              have continued to advance through freelance work and personal
+              projects.
+            </p>
           </p>
-          <p>
+          <p className="md:hidden">
             Whilst working closely with internal and client dev teams, I
             uncovered a keen interest in web development - the team dynamic,
-            challenging new concepts and logical problem solving were all elements I felt
-            my role in business development was missing.
+            challenging new concepts and logical problem solving that the work
+            offers.
           </p>
-          <p>
+          <p className="md:hidden">
             In January 2024, I decided to seriously pursue this passion,
             enrolling in a full-time Software Engineering Bootcamp with General
             Assembly. Throughout the three month course I built a solid
@@ -50,7 +70,7 @@ function Welcome() {
             continued to advance through freelance work and personal projects.
           </p>
         </div>
-        <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex">
+        <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex md:w-[60%] md:mx-auto">
           <div className="w-[75%] h-[60px] flex flex-col justify-center">
             <h1 className="font-title text-lg tracking-wider">
               General Assembly
@@ -63,7 +83,7 @@ function Welcome() {
             Jan - Apr '24
           </p>
         </div>
-        <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex">
+        <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex md:w-[60%] md:mx-auto">
           <div className="w-[65%] h-[60px] flex flex-col justify-center">
             <h1 className="font-title text-lg tracking-wider">
               CJ, publicis media
@@ -74,7 +94,7 @@ function Welcome() {
             Aug '22 - dec '24
           </p>
         </div>
-        <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex">
+        <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex md:w-[60%] md:mx-auto">
           <div className="w-[65%]">
             <h1 className="font-title text-lg tracking-wider">
               LTK (rewardStyle)
@@ -87,13 +107,13 @@ function Welcome() {
             Jan '19 - jul '22
           </p>
         </div>
-        <div>
+        <div className="md:w-[90%] md:mx-auto">
           <h1 className="font-title text-[#357ab7] text-2xl text-center px-8 my-12">
             I'm currently looking for Junior Developer roles in Perth or remote.
             Please get in touch if you would like to collaborate or simply have
             a chat.
           </h1>
-          <p className="font-body px-8 mb-5">
+          <p className="font-body px-8 mb-5 md:w-[80%] md:mx-auto">
             Before stepping into web development, I was a Business Development
             Manager. I worked with retail clients on bespoke affiliate and
             influencer marketing strategies and specialised in the fashion and
@@ -101,10 +121,11 @@ function Welcome() {
             about relationship management, cross-functional collaboration and
             commercial negotations.
           </p>
-          <p className="font-body px-8 mb-10">
-            Outside of work, I love coffee, hiking, reading fantasy and
-            exploring the wonders of Western Australia, having recently
-            emigrated to Perth from the UK.
+          <p className="font-body px-8 mb-10 md:w-[80%] md:mx-auto">
+            Outside of work, I love hiking, reading and spending time in nature.
+            Having recently emigrated to Australia from the UK, I've been
+            enjoying exploring my new home and have a long list of adventures on
+            my bucket list!
           </p>
         </div>
       </section>
