@@ -76,7 +76,7 @@ function Welcome() {
               Freelance web developer
             </h1>
           </div>
-          <p className="font-title text-lg tracking-wider w-[25%] flex items-center justify-end">
+          <p className="font-title text-lg tracking-wider w-[30%] flex items-center justify-end">
             May - present
           </p>
         </div>
@@ -86,7 +86,7 @@ function Welcome() {
               General Assembly
             </h1>
             <p className="font-body text-xs lg:text-sm">
-              Student, Software Engineering Immersive
+              Student, Software Engineering
             </p>
           </div>
           <p className="font-title text-lg tracking-wider w-[25%] flex items-center justify-end">
