@@ -6,12 +6,12 @@ function Contact() {
           Liv Darby | Junior Developer
         </h2>
         <div className="mb-4">
-          <h1 className="font-title text-[#357ab7] text-7xl sm:text-8xl md:text-9xl lg:text-largest tracking-wide text-center">
+          <h1 className="font-title text-[#357ab7] text-7xl sm:text-8xl md:text-9xl tracking-wide text-center">
             Get in touch
           </h1>
         </div>
         <div>
-          <p className="font-body w-[75%] mx-auto">
+          <p className="font-body w-[75%] mx-auto text-center">
             Interested in working together, have a question or just looking to
             say hi? Please do get in touch!
           </p>

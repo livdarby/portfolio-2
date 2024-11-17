@@ -24,7 +24,7 @@ function Welcome() {
             src={dolomites}
             alt="Hiking in the Dolomites"
           />
-          <p className="my-10 font-title text-[#357ab7] text-2xl text-center px-8">
+          <p className="my-10 font-title text-[#357ab7] text-2xl text-center px-8 lg:text-3xl">
             I'm a Junior Developer based in Perth, Western Australia.
           </p>
         </div>
@@ -34,7 +34,7 @@ function Welcome() {
             alt="Hiking photo"
             className="rounded-t-full w-[230px] h-[321px] hidden md:flex my-auto"
           />
-          <p className="md:w-[400px]">
+          <p className="md:w-[400px] lg:w-[700px] lg:h-max lg:my-auto">
             Over the past 8 years, I've worked in account management and
             business development in the digital marketing industry. I have had
             the privilege of working alongside incredible brands, implementing
@@ -73,9 +73,19 @@ function Welcome() {
         <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex md:w-[60%] md:mx-auto">
           <div className="w-[75%] h-[60px] flex flex-col justify-center">
             <h1 className="font-title text-lg tracking-wider">
+              Freelance web developer
+            </h1>
+          </div>
+          <p className="font-title text-lg tracking-wider w-[25%] flex items-center justify-end">
+            May - present
+          </p>
+        </div>
+        <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex md:w-[60%] md:mx-auto">
+          <div className="w-[75%] h-[60px] flex flex-col justify-center">
+            <h1 className="font-title text-lg tracking-wider">
               General Assembly
             </h1>
-            <p className="font-body text-xs">
+            <p className="font-body text-xs lg:text-sm">
               Student, Software Engineering Immersive
             </p>
           </div>
@@ -88,7 +98,7 @@ function Welcome() {
             <h1 className="font-title text-lg tracking-wider">
               CJ, publicis media
             </h1>
-            <p className="font-body text-xs">Business Development Manager</p>
+            <p className="font-body text-xs lg:text-sm">Business Development Manager</p>
           </div>
           <p className="font-title text-lg tracking-wider w-[35%] flex items-center justify-end">
             Aug '22 - dec '24
@@ -99,7 +109,7 @@ function Welcome() {
             <h1 className="font-title text-lg tracking-wider">
               LTK (rewardStyle)
             </h1>
-            <p className="font-body text-xs">
+            <p className="font-body text-xs lg:text-sm">
               Business Development Manager & Account Manager
             </p>
           </div>
@@ -108,12 +118,12 @@ function Welcome() {
           </p>
         </div>
         <div className="md:w-[90%] md:mx-auto">
-          <h1 className="font-title text-[#357ab7] text-2xl text-center px-8 my-12">
+          <h1 className="font-title text-[#357ab7] text-2xl text-center px-8 my-12 lg:w-[80%] lg:mx-auto lg:text-3xl">
             I'm currently looking for Junior Developer roles in Perth or remote.
             Please get in touch if you would like to collaborate or simply have
             a chat.
           </h1>
-          <p className="font-body px-8 mb-5 md:w-[80%] md:mx-auto">
+          <p className="font-body px-8 mb-5 md:w-[80%] md:mx-auto lg:w-[95%]">
             Before stepping into web development, I was a Business Development
             Manager. I worked with retail clients on bespoke affiliate and
             influencer marketing strategies and specialised in the fashion and
@@ -121,7 +131,7 @@ function Welcome() {
             about relationship management, cross-functional collaboration and
             commercial negotations.
           </p>
-          <p className="font-body px-8 mb-10 md:w-[80%] md:mx-auto">
+          <p className="font-body px-8 mb-10 md:w-[80%] md:mx-auto lg:w-[95%]">
             Outside of work, I love hiking, reading and spending time in nature.
             Having recently emigrated to Australia from the UK, I've been
             enjoying exploring my new home and have a long list of adventures on
