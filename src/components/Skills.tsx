@@ -31,7 +31,7 @@ function Skills() {
           <h2 className="font-body uppercase tracking-wider text-[#333] font-semibold mb-4 text-center text-xs">
             Liv Darby | Junior Developer
           </h2>
-          <h1 className="font-title text-[#357ab7] tracking-wider text-7xl text-center mt-5">
+          <h1 className="font-title text-[#357ab7] tracking-wider text-7xl sm:text-8xl md:text-9xl text-center mt-5">
             My Skills
           </h1>
         </div>

@@ -44,7 +44,7 @@ function Projects() {
           Liv Darby | Junior Developer
         </h2>
         <div className="mb-4">
-          <h1 className="font-title text-[#357ab7] text-7xl sm:text-8xl md:text-9xl lg:text-largest tracking-wide text-center">
+          <h1 className="font-title text-[#357ab7] text-7xl sm:text-8xl md:text-9xl tracking-wide text-center">
             Projects
           </h1>
           <p className="font-body text-sm text-center px-8 my-5 lg:text-base">
@@ -135,8 +135,8 @@ function Projects() {
                 cabbage patch protector
               </h1>
               <p id="cpp" className="font-body text-sm lg:text-base">
-                Minesweeper with a twist. My first solo General Assembly project - a desktop JavaScript
-                grid-based game.
+                Minesweeper with a twist. My first solo General Assembly project
+                - a desktop JavaScript grid-based game.
               </p>
             </div>
             <img
@@ -146,9 +146,16 @@ function Projects() {
               className="w-28 my-auto mx-auto rounded"
             />
           </div>
-          <div id="gv" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto md:mx-0 rounded-md py-4 md:w-[38%]">
+          <div
+            id="gv"
+            onClick={handleClick}
+            className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto md:mx-0 rounded-md py-4 md:w-[38%]"
+          >
             <div id="gv" className="w-[70%] my-auto">
-              <h1 id="gv" className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl">
+              <h1
+                id="gv"
+                className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
+              >
                 Gourmet Voyage
               </h1>
               <p id="gv" className="font-body text-sm lg:text-base">
@@ -156,15 +163,23 @@ function Projects() {
                 front-end. A General Assembly group project.
               </p>
             </div>
-            <img id="gv"
+            <img
+              id="gv"
               src={gourmetvoyage}
               alt="site screenshot"
               className="w-28 my-auto mx-auto rounded"
             />
           </div>
-          <div id="quiz" onClick={handleClick} className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto md:mx-0 rounded-md py-4 md:w-[38%]">
+          <div
+            id="quiz"
+            onClick={handleClick}
+            className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto md:mx-0 rounded-md py-4 md:w-[38%]"
+          >
             <div id="quiz" className="w-[70%] my-auto">
-              <h1 id="quiz" className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl">
+              <h1
+                id="quiz"
+                className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
+              >
                 Open Trivia Quiz
               </h1>
               <p id="quiz" className="font-body text-sm lg:text-base">
@@ -172,7 +187,8 @@ function Projects() {
                 from a public API. A 48-hour Hackathon pair project.
               </p>
             </div>
-            <img id="quiz"
+            <img
+              id="quiz"
               src={quiz2}
               alt="site screenshot"
               className="w-28 my-auto mx-auto rounded"
