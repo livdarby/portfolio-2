@@ -35,6 +35,7 @@ function Contact() {
           (error) => {
             setErrorMessage("There has been an error, please try again.");
             setButtonClicked(false);
+            console.log(error.text)
           }
         );
     setButtonClicked(true);
