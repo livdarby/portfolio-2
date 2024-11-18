@@ -98,7 +98,7 @@ function Welcome() {
             <h1 className="font-title text-lg tracking-wider">
               CJ, publicis media
             </h1>
-            <p className="font-body text-xs lg:text-sm">Business Development Manager</p>
+            <p className="font-body text-xs lg:text-sm">Business Development Manager | London</p>
           </div>
           <p className="font-title text-lg tracking-wider w-[35%] flex items-center justify-end">
             Aug '22 - dec '24
@@ -110,7 +110,7 @@ function Welcome() {
               LTK (rewardStyle)
             </h1>
             <p className="font-body text-xs lg:text-sm">
-              Business Development Manager & Account Manager
+              Business Development Manager & Account Manager | London
             </p>
           </div>
           <p className="font-title text-lg tracking-wider w-[35%] flex items-center justify-end">

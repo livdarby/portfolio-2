@@ -1,4 +1,16 @@
+import { useRef } from "react";
+import emailjs from '@emailjs/browser'
+
 function Contact() {
+  
+  const form = useRef()
+
+  const sendEmail = (e: any) => {e.preventDefault()
+
+    emailjs.sendForm()
+  }
+
+
   return (
     <>
       <section className="bg-[#f9d7df] min-h-screen py-8">
