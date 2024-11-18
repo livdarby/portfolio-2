@@ -2,7 +2,7 @@ import { SyntheticEvent, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
-  console.log('debugging')
+  
   const { VITE_SERVICE_ID, VITE_TEMPLATE_ID, VITE_PUBLIC_KEY } = import.meta
     .env;
   const form: any = useRef();
@@ -16,6 +16,11 @@ function Contact() {
     true | false
   >(true);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+  console.log("Service ID:", VITE_SERVICE_ID);
+  console.log("Template ID:", VITE_TEMPLATE_ID);
+  console.log("Public Key:", VITE_PUBLIC_KEY);
+
 
   const sendEmail = (e: any) => {
     e.preventDefault();
