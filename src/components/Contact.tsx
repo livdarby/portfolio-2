@@ -2,6 +2,7 @@ import { SyntheticEvent, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
+  console.log('debugging')
   const { VITE_SERVICE_ID, VITE_TEMPLATE_ID, VITE_PUBLIC_KEY } = import.meta
     .env;
   const form: any = useRef();
