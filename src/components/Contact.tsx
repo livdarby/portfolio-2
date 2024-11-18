@@ -15,8 +15,6 @@ function Contact() {
     true | false
   >(true);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  console.log(formData);
-  // console.log(submitButtonDisabled)
 
   const sendEmail = (e: any) => {
     e.preventDefault();
@@ -29,14 +27,12 @@ function Contact() {
         })
         .then(
           () => {
-            console.log("Success!");
             setButtonClicked(false);
             setErrorMessage(
               "Your email has been successfully sent. I'll get back to you as soon as possible!"
             );
           },
           (error) => {
-            console.log("Failed!", error.text);
             setErrorMessage("There has been an error, please try again.");
             setButtonClicked(false);
           }
@@ -56,7 +52,6 @@ function Contact() {
     // find the e.target.name from the formDataCopy
     formDataCopy[e.target.name] = e.target.value;
     setFormData(formDataCopy);
-    console.log(formDataCopy.name, formDataCopy.email, formDataCopy.message);
     formDataCopy.name && formDataCopy.email && formDataCopy.message
       ? setSubmitButtonDisabled(false)
       : setSubmitButtonDisabled(true);
