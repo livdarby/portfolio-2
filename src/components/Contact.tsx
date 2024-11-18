@@ -17,9 +17,6 @@ function Contact() {
   >(true);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  console.log("Service ID:", VITE_SERVICE_ID);
-  console.log("Template ID:", VITE_TEMPLATE_ID);
-  console.log("Public Key:", VITE_PUBLIC_KEY);
 
 
   const sendEmail = (e: any) => {
