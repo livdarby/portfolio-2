@@ -35,11 +35,14 @@ function Welcome() {
             className="rounded-t-full w-[230px] h-[321px] hidden md:flex my-auto"
           />
           <p className="md:w-[400px] lg:w-[700px] lg:h-max lg:my-auto">
-            Over the past 8 years, I've worked in account management and
-            business development in the digital marketing industry. I have had
-            the privilege of working alongside incredible brands, implementing
-            their influencer marketing campaigns and affiliate tracking
-            technology.
+            Over the past 8 years, I've worked in{" "}
+            <span className="bg-[#fcecf1] font-semibold px-2 rounded">
+              account management and business development in the digital
+              marketing industry.
+            </span>{" "}
+            I have had the privilege of working alongside incredible brands,
+            implementing their influencer marketing campaigns and affiliate
+            tracking technology.
             <br />
             <p className="hidden md:flex md:mt-4">
               Whilst working closely with internal and client dev teams, I
@@ -47,14 +50,21 @@ function Welcome() {
               challenging new concepts and logical problem solving that the work
               offers.
             </p>
-            <p className="hidden md:flex md:mt-4">
-              In January 2024, I decided to seriously pursue this passion,
-              enrolling in a full-time Software Engineering Bootcamp with
-              General Assembly. Throughout the three month course I built a
-              solid foundation in front and back-end web development, which I
-              have continued to advance through freelance work and personal
-              projects.
-            </p>
+            <div className="hidden md:flex md:mt-4">
+              <p>
+                In January 2024, I decided to seriously pursue this passion,
+                enrolling in a{" "}
+                <span className="bg-[#fcecf1] font-semibold px-2 rounded">
+                  full-time Software Engineering Bootcamp with General Assembly.
+                </span>{" "}
+                Throughout the three month course I built a{" "}
+                <span className="bg-[#fcecf1] font-semibold px-2 rounded">
+                  solid foundation in front and back-end web development, which
+                  I have continued to advance through freelance work and
+                  personal projects.
+                </span>
+              </p>
+            </div>
           </p>
           <p className="md:hidden">
             Whilst working closely with internal and client dev teams, I
@@ -64,10 +74,16 @@ function Welcome() {
           </p>
           <p className="md:hidden">
             In January 2024, I decided to seriously pursue this passion,
-            enrolling in a full-time Software Engineering Bootcamp with General
-            Assembly. Throughout the three month course I built a solid
-            foundation in front and back-end web development, which I have
-            continued to advance through freelance work and personal projects.
+            enrolling in a{" "}
+            <span className="bg-[#fcecf1] font-semibold px-2 rounded">
+              full-time Software Engineering Bootcamp with General Assembly.
+            </span>{" "}
+            Throughout the three month course I built a{" "}
+            <span className="bg-[#fcecf1] font-semibold px-2 rounded">
+              solid foundation in front and back-end web development, which I
+              have continued to advance through freelance work and personal
+              projects.
+            </span>
           </p>
         </div>
         <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex md:w-[60%] md:mx-auto">
@@ -98,7 +114,9 @@ function Welcome() {
             <h1 className="font-title text-lg tracking-wider">
               CJ, publicis media
             </h1>
-            <p className="font-body text-xs lg:text-sm">Business Development Manager | London</p>
+            <p className="font-body text-xs lg:text-sm">
+              Business Development Manager | London
+            </p>
           </div>
           <p className="font-title text-lg tracking-wider w-[35%] flex items-center justify-end">
             Aug '22 - dec '24
