@@ -35,12 +35,12 @@ function Welcome() {
             className="rounded-t-full w-[230px] h-[321px] hidden md:flex my-auto"
           />
           <p className="md:w-[400px] lg:w-[700px] lg:h-max lg:my-auto">
-            Over the past 8 years, I've worked in{" "}
+            For 5 years, I worked in{" "}
             <span className="bg-[#fcecf1] font-semibold px-2 rounded">
               account management and business development in the digital
               marketing industry.
             </span>{" "}
-            I have had the privilege of working alongside incredible brands,
+            I had the privilege of working alongside incredible brands,
             implementing their influencer marketing campaigns and affiliate
             tracking technology.
             <br />
