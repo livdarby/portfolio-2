@@ -3,10 +3,11 @@ function Skills() {
     "JavaScript",
     "TypeScript",
     "React",
+    "WordPress",
     "HTML",
     "CSS",
-    "Tailwind",
-    "Bulma",
+    "TailwindCSS",
+    "Bulma"
   ];
 
   const backEnd = ["Python", "JavaScript", "Node.js", "Express", "Flask"];

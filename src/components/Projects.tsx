@@ -3,6 +3,7 @@ import fpl3 from "../../assets/fpl3.png";
 import cpp2 from "../../assets/cpp2.png";
 import gourmetvoyage from "../../assets/gourmetvoyage.png";
 import ezpz from "../../assets/ezpz.png";
+import blog from "../../assets/blog.png"
 
 function Projects() {
   function handleClick(e: any) {
@@ -31,6 +32,13 @@ function Projects() {
     else if (e.target.id === "quiz") {
       window.open(
         "https://catherine-liv-project-2.netlify.app/quiz",
+        "_blank",
+        "noopener,noreferrer"
+      );
+    }
+    else if (e.target.id === "blog") {
+      window.open(
+        "http://movewithliv.com",
         "_blank",
         "noopener,noreferrer"
       );
@@ -91,6 +99,29 @@ function Projects() {
               alt="site screenshot"
               className="w-28 my-auto rounded mx-auto"
               id="fpl"
+            />
+          </div>
+          <div
+            onClick={handleClick}
+            id="fpl"
+            className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto md:mx-0 rounded-md py-4 md:w-[38%] items-center"
+          >
+            <div id="blog" className="w-[70%]">
+              <h1
+                id="blog"
+                className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
+              >
+                Move With Liv
+              </h1>
+              <p id="blog" className="font-body text-sm lg:text-base">
+                WordPress site hosted on SiteGround. This blog documents my travels and experiences emigrating to Australia.
+              </p>
+            </div>
+            <img
+              src={blog}
+              alt="site screenshot"
+              className="w-28 my-auto rounded mx-auto"
+              id="blog"
             />
           </div>
           <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto md:mx-0 rounded-md py-4 md:w-[38%] items-center">
