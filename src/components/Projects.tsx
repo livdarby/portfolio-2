@@ -73,7 +73,7 @@ function Projects() {
             <div id="fpl" className="w-[70%]">
               <h1
                 id="fpl"
-                className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
+                className="cursor-pointer font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
               >
                 Premier Picks{" "}
                 <span id="fpl" className="text-xs">
@@ -109,7 +109,7 @@ function Projects() {
             <div id="blog" className="w-[70%]">
               <h1
                 id="blog"
-                className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
+                className="cursor-pointer font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
               >
                 Move With Liv
               </h1>
@@ -126,7 +126,7 @@ function Projects() {
           </div>
           <div className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto md:mx-0 rounded-md py-4 md:w-[38%] items-center">
             <div className="w-[70%]">
-              <h1 className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl">
+              <h1 className="cursor-pointer font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl">
                 Ezpz events
               </h1>
               <p className="font-body text-sm lg:text-base">
@@ -161,7 +161,7 @@ function Projects() {
             <div id="cpp" className="w-[70%]">
               <h1
                 id="cpp"
-                className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
+                className="cursor-pointer font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
               >
                 cabbage patch protector
               </h1>
@@ -185,7 +185,7 @@ function Projects() {
             <div id="gv" className="w-[70%] my-auto">
               <h1
                 id="gv"
-                className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
+                className="cursor-pointer font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
               >
                 Gourmet Voyage
               </h1>
@@ -209,7 +209,7 @@ function Projects() {
             <div id="quiz" className="w-[70%] my-auto">
               <h1
                 id="quiz"
-                className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
+                className="cursor-pointer font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
               >
                 Open Trivia Quiz
               </h1>
