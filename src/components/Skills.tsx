@@ -3,6 +3,7 @@ function Skills() {
     "JavaScript",
     "TypeScript",
     "React",
+    "NextJS",
     "WordPress",
     "HTML",
     "CSS",

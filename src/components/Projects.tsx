@@ -4,6 +4,7 @@ import cpp2 from "../../assets/cpp2.png";
 import gourmetvoyage from "../../assets/gourmetvoyage.png";
 import ezpz from "../../assets/ezpz.png";
 import blog from "../../assets/blog.png"
+import wordle from "../../assets/wordle.png"
 
 function Projects() {
   function handleClick(e: any) {
@@ -39,6 +40,13 @@ function Projects() {
     else if (e.target.id === "blog") {
       window.open(
         "http://movewithliv.com",
+        "_blank",
+        "noopener,noreferrer"
+      );
+    }
+    else if (e.target.id === "wordle") {
+      window.open(
+        "https://word-nerd.netlify.app/",
         "_blank",
         "noopener,noreferrer"
       );
@@ -103,7 +111,30 @@ function Projects() {
           </div>
           <div
             onClick={handleClick}
-            id="fpl"
+            id="wordle"
+            className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto md:mx-0 rounded-md py-4 md:w-[38%] items-center"
+          >
+            <div id="wordle" className="w-[70%]">
+              <h1
+                id="wordle"
+                className="cursor-pointer font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
+              >
+                Word Nerd
+              </h1>
+              <p id="wordle" className="font-body text-sm lg:text-base">
+                NextJS version of Wordle, with unlimited games per day. Currently adding content to make this a multi-page app.
+              </p>
+            </div>
+            <img
+              src={wordle}
+              alt="site screenshot"
+              className="w-28 my-auto rounded mx-auto"
+              id="wordle"
+            />
+          </div>
+          <div
+            onClick={handleClick}
+            id="blog"
             className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto md:mx-0 rounded-md py-4 md:w-[38%] items-center"
           >
             <div id="blog" className="w-[70%]">
