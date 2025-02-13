@@ -6,6 +6,7 @@ import "./styles/index.css";
 import Projects from "./components/Projects";
 import ProjectOne from "./components/ProjectOne";
 import Contact from "./components/Contact";
+import DogsHomeFull from "./components/DogsHomeFull";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/01" element={<ProjectOne />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/projects/dogs-home" element={<DogsHomeFull />} />
           </Routes>
         </Router>
       </div>

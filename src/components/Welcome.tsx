@@ -65,6 +65,16 @@ function Welcome() {
                 </span>
               </p>
             </div>
+            <div className="hidden md:flex md:mt-4">
+              <p>
+                I am currently a{" "}
+                <span className="bg-[#fcecf1] font-semibold px-1 rounded">
+                  Web Development Intern at Hatchet in Perth
+                </span>
+                , where I am building a full-stack software solution for a dog
+                rehoming centre using Next.js, TypeScript and Laravel.
+              </p>
+            </div>
           </p>
           <p className="md:hidden">
             Whilst working closely with internal and client dev teams, I
@@ -85,6 +95,25 @@ function Welcome() {
               projects.
             </span>
           </p>
+          <p className="md:hidden">
+            I am currently a{" "}
+            <span className="bg-[#fcecf1] font-semibold px-1 rounded">
+              Web Development Intern at Hatchet in Perth
+            </span>
+            , where I am building a full-stack software solution for a dog
+            rehoming centre using Next.js, TypeScript and Laravel.
+          </p>
+        </div>
+        <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex md:w-[60%] md:mx-auto">
+          <div className="w-[75%] h-[60px] flex flex-col justify-center">
+            <h1 className="font-title text-lg tracking-wider">Hatchet</h1>
+            <p className="font-body text-xs lg:text-sm">
+              Web Development Intern | Perth, WA
+            </p>
+          </div>
+          <p className="font-title text-lg tracking-wider w-[40%] flex items-center justify-end">
+            Jan '25 - present
+          </p>
         </div>
         <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex md:w-[60%] md:mx-auto">
           <div className="w-[75%] h-[60px] flex flex-col justify-center">
@@ -92,8 +121,8 @@ function Welcome() {
               Freelance web developer
             </h1>
           </div>
-          <p className="font-title text-lg tracking-wider w-[30%] flex items-center justify-end">
-            May - present
+          <p className="font-title text-lg tracking-wider w-[40%] flex items-center justify-end">
+            May '24 - present
           </p>
         </div>
         <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex md:w-[60%] md:mx-auto">
@@ -105,8 +134,8 @@ function Welcome() {
               Student, Software Engineering
             </p>
           </div>
-          <p className="font-title text-lg tracking-wider w-[25%] flex items-center justify-end">
-            Jan - Apr '24
+          <p className="font-title text-lg tracking-wider w-[40%] flex items-center justify-end">
+            Jan '24 - Apr '24
           </p>
         </div>
         <div className="bg-[#357ab7] text-white rounded-full my-5 py-2 px-5 mx-3 flex md:w-[60%] md:mx-auto">
@@ -115,10 +144,10 @@ function Welcome() {
               CJ, publicis media
             </h1>
             <p className="font-body text-xs lg:text-sm">
-              Business Development Manager | London
+              Business Development Manager | London, UK
             </p>
           </div>
-          <p className="font-title text-lg tracking-wider w-[35%] flex items-center justify-end">
+          <p className="font-title text-lg tracking-wider w-[40%] flex items-center justify-end">
             Aug '22 - dec '24
           </p>
         </div>
@@ -128,7 +157,7 @@ function Welcome() {
               LTK (rewardStyle)
             </h1>
             <p className="font-body text-xs lg:text-sm">
-              Business Development Manager & Account Manager | London
+              Business Development Manager & Account Manager | London, UK
             </p>
           </div>
           <p className="font-title text-lg tracking-wider w-[35%] flex items-center justify-end">
@@ -150,10 +179,10 @@ function Welcome() {
             commercial negotations.
           </p>
           <p className="font-body px-8 mb-10 md:w-[80%] md:mx-auto lg:w-[95%]">
-            Outside of work, I love hiking, reading and spending time in nature.
-            Having recently emigrated to Australia from the UK, I've been
-            enjoying exploring my new home and have a long list of adventures on
-            my bucket list!
+            Outside of work, I love CrossFit, hiking, reading and spending time
+            in nature. Having recently emigrated to Australia from the UK, I've
+            been enjoying exploring my new home and have a long list of
+            adventures on my bucket list!
           </p>
         </div>
       </section>

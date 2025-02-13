@@ -13,6 +13,9 @@ module.exports = {
         body: ['"Montserrat"', "sans-serif"],
         script: ['"BrittanySignature"', "cursive"], // Reference the font-family from @font-face },
       },
+      colors: {
+        blue: "#357ab7",
+      },
     },
     plugins: [],
   },

@@ -3,8 +3,9 @@ import fpl3 from "../../assets/fpl3.png";
 import cpp2 from "../../assets/cpp2.png";
 import gourmetvoyage from "../../assets/gourmetvoyage.png";
 import ezpz from "../../assets/ezpz.png";
-import blog from "../../assets/blog.png"
-import wordle from "../../assets/wordle.png"
+import blog from "../../assets/blog.png";
+import wordle from "../../assets/wordle.png";
+import DogsHome from "./DogsHome";
 
 function Projects() {
   function handleClick(e: any) {
@@ -15,36 +16,27 @@ function Projects() {
         "_blank",
         "noopener,noreferrer"
       );
-    }
-    else if (e.target.id === "cpp") {
+    } else if (e.target.id === "cpp") {
       window.open(
         "https://livdarby.github.io/SEB-Project-1/",
         "_blank",
         "noopener,noreferrer"
       );
-    }
-    else if (e.target.id === "gv") {
+    } else if (e.target.id === "gv") {
       window.open(
         "https://gourmet-e-shop-front.netlify.app/",
         "_blank",
         "noopener,noreferrer"
       );
-    }
-    else if (e.target.id === "quiz") {
+    } else if (e.target.id === "quiz") {
       window.open(
         "https://catherine-liv-project-2.netlify.app/quiz",
         "_blank",
         "noopener,noreferrer"
       );
-    }
-    else if (e.target.id === "blog") {
-      window.open(
-        "http://movewithliv.com",
-        "_blank",
-        "noopener,noreferrer"
-      );
-    }
-    else if (e.target.id === "wordle") {
+    } else if (e.target.id === "blog") {
+      window.open("http://movewithliv.com", "_blank", "noopener,noreferrer");
+    } else if (e.target.id === "wordle") {
       window.open(
         "https://word-nerd.netlify.app/",
         "_blank",
@@ -73,6 +65,7 @@ function Projects() {
               currently working on
             </h1>
           </div>
+          <DogsHome />
           <div
             onClick={handleClick}
             id="fpl"
@@ -122,7 +115,8 @@ function Projects() {
                 Word Nerd
               </h1>
               <p id="wordle" className="font-body text-sm lg:text-base">
-                NextJS version of Wordle, with unlimited games per day. Currently adding content to make this a multi-page app.
+                NextJS version of Wordle, with unlimited games per day.
+                Currently adding content to make this a multi-page app.
               </p>
             </div>
             <img
@@ -145,7 +139,8 @@ function Projects() {
                 Move With Liv
               </h1>
               <p id="blog" className="font-body text-sm lg:text-base">
-                WordPress site hosted on SiteGround. This blog documents my travels and experiences emigrating to Australia.
+                WordPress site hosted on SiteGround. This blog documents my
+                travels and experiences emigrating to Australia.
               </p>
             </div>
             <img
