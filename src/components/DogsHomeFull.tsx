@@ -15,7 +15,7 @@ function DogsHomeFull() {
           </h1>
           <BackButton />
           <div className="bg-white bg-opacity-40 rounded m-4 flex flex-col gap-4 p-4 font-body">
-            <img src={dog_home} alt="Project screenshot of a dog's profile" className="rounded shadow" />
+            <img src={dog_profile} alt="Project screenshot of a dog's profile" className="rounded shadow" />
             <p>
               Shenton Dogs' Refuge required an overhaul of their fostering and
               volunteering management system. Previously, the staff has managed
