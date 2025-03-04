@@ -14,7 +14,7 @@ export default function DogsHome() {
             Shenton Dogs' Refuge Home
           </h1>
           <p id="wordle" className="font-body text-sm lg:text-base">
-            Using Next.js and Laravel to develop a software solution for a
+            Using Next.js and Laravel to develop a software solution for
             Shenton Dogs' Refuge Home, streamlining foster and volunteer care
             management.
           </p>
