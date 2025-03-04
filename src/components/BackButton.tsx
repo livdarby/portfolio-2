@@ -6,7 +6,7 @@ export default function BackButton() {
     <div className="w-full flex justify-center">
       <Link to="/projects" className="flex gap-1">
         <ArrowLeftCircle className="text-blue w-4" />
-        <span className="font-body font-semibold">Back to projects</span>
+        <span className="font-body font-semibold text-blue">projects</span>
       </Link>
     </div>
   );

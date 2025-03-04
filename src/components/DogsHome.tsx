@@ -9,7 +9,7 @@ export default function DogsHome() {
         <div id="wordle" className="w-[70%]">
           <h1
             id="wordle"
-            className="cursor-pointer font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
+            className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
           >
             Shenton Dogs' Refuge Home
           </h1>
