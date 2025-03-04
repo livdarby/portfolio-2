@@ -6,6 +6,8 @@ import ezpz from "../../assets/ezpz.png";
 import blog from "../../assets/blog.png";
 import wordle from "../../assets/wordle.png";
 import DogsHome from "./DogsHome";
+import { Link } from "react-router-dom";
+import { ArrowRightCircle } from "lucide-react";
 
 function Projects() {
   function handleClick(e: any) {
@@ -67,19 +69,18 @@ function Projects() {
           </div>
           <DogsHome />
           <div
-            onClick={handleClick}
             id="fpl"
             className="flex gap-2 bg-[#fcedf1] px-6 w-[90%] mx-auto md:mx-0 rounded-md py-4 md:w-[38%] items-center"
           >
             <div id="fpl" className="w-[70%]">
               <h1
                 id="fpl"
-                className="cursor-pointer font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
+                className="font-title text-lg tracking-wider text-[#357ab7] lg:text-2xl"
               >
-                Premier Picks{" "}
+                Premier Picks {" "}
                 <span id="fpl" className="text-xs">
-                  x
-                </span>{" "}
+                  x {" "}
+                </span>
                 FPL BlackBox
               </h1>
               <p id="fpl" className="font-body text-sm lg:text-base">
@@ -94,6 +95,12 @@ function Projects() {
                   FPL BlackBox.
                 </a>
               </p>
+              <Link to="/projects/fpl-blackbox">
+                <div className="font-body flex items-center gap-1 text-sm lg:text-base font-semibold cursor-pointer">
+                  Read more
+                  <ArrowRightCircle className="w-4 inline text-blue" />
+                </div>
+              </Link>
             </div>
             <img
               src={fpl3}
